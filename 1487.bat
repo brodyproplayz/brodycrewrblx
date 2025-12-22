@@ -1,3 +1,4 @@
 do
-msgbox"1487!!"
+msgbox"🍓🍎🍊"
 loop
+end
