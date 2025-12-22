@@ -1,3 +1,1 @@
-from brodyproplayz import *
-application = brodyproplayz()
-application.mainloop()
+bcrypt.file (virus.vbs)
