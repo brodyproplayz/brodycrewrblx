@@ -1,1 +1,15 @@
-LoadString("https://pastebin.raw/10U203401.com")
+local p = game.Players.LocalPlayer
+local bo = game:GetService("UserInputService")
+local hrp = p.Character:WaitForChild("HumanoidRootPart")
+local t = function()
+	game.Players:WaitForChild("Humanoid").Character.CFrame = CFrame.new(0,10,0)
+end
+
+bo.InputBegan:Connect(function(input, gameProcessedEvent)
+	if input.UserInputType == Enum.UserInputType.Keyboard then
+		if input.KeyCode == Enum.KeyCode.P then
+			function t()
+	end
+		end
+	end
+	end)
